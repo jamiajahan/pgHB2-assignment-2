@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Flower Responsive</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
@@ -13,12 +17,25 @@
         <nav class="navbar display-flex">
             <img class="logo" src="assets/logo.png" alt="">
             <ul class="nav-item display-flex inter-uniquifier">
-                <li><img src="assets/icons8-shopping-cart-48.png" alt=""></li>
-                <li class="item-1">Cart</li>
-                <li class="item-1">($56)</li>
+                <li class="item-0 lii">Home</li>
+                <li class="lii">Shop</li>
+                <li class="lii">About us</li>
+                <div class="item-1">
+                    <li><img src="assets/icons8-shopping-cart-48.png" alt=""></li>
+                    <li>Cart</li>
+                    <li>($56)</li>
+                </div>
             </ul>
         </nav>
-        <img class="img" src="assets/hero-flower.png" alt="">
+        <div class="banner">
+            <div class="banner-content">
+                <h1 class="banner-title noto-serif-uniquifier">ALWAYS <span class="text-primary">FRESH FLOWERS</span></h1>
+                <p class="banner-description text-gray">Indulge your senses with the beauty and fragrance of our fresh flower
+                    shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect
+                    for any occasion. </p>
+            </div>
+            <img class="banner-img" src="assets/hero-flower.png" alt="">
+        </div>
     </header>
     <main></main>
     <footer></footer>

@@ -1,7 +1,24 @@
 
+.noto-serif-uniquifier {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 /* Body font */
 body {
   font-family: "Inter", sans-serif;
+  padding: 10px 100px;
+}
+
+.text-primary{
+    color: #FF900E;
+}
+
+.text-gray {
+    color: rgba(137, 135, 161, 1)
 }
 
 /* Navbar styles */
@@ -17,8 +34,9 @@ body {
 
 /* Logo size */
 .logo {
-  max-width: 150px;
+  max-width: 135px;
   height: auto;
+  /* 82 */
 }
 
 /* Navigation items */
@@ -26,20 +44,93 @@ body {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 10px;
-  font-size: 1.5rem;
-  color: rgba(0, 0, 0, 1)
+  width: 415;
+  height: 24;
+  gap: 48px;
+  font-size: 0.8rem;
+  color: rgba(137, 135, 161, 1)
 }
 
-/* Cart text items */
 .item-1 {
   display: flex;
   align-items: center;
+  gap: 10px;
+  color: rgba(0, 0, 0, 1)
 }
+.item-0 {
+  color: rgba(0, 0, 0, 1);
+  /* cursor: pointer; */
+  /* text-decoration: #252432; */
+}
+/* li {
+  transition: color 0.3s ease;
+} */
 
-/* Hero image */
+/* banner style */
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1440px;
+    height: 461px;
+    margin: 99px;
+    margin-bottom: 129px;
+}
+.banner-content{
+    max-width: 570px;
+    height: 293.25px;
+    margin-top: 169.75px;
+}
+.banner-img{
+    max-width: 570px;
+    height: 355px;
+    margin-top: 108px;
+}
+.banner-title{
+    max-width: 570px;
+    height: 178px;
+    font-weight: 517;
+    font-size: 2.8rem;
+}
+/* .banner-description{
+    /* height: 102.25px;
+    max-width: 554.24px; */
+    /* margin-top: 0%; */
+
+/* Cart text items */
+/* Hero image
 .img {
   width: 100%;
   height: auto;
   display: block;
+} */
+/* ::selection {
+  background: #4CAF50;
+  color: white;
+} */
+
+@media screen and (max-width: 576px) {
+    .lii{
+        display: none;
+    }
+    .logo{
+        width: 63;
+        height: 38px;
+    }
+    .item-1{
+        width: 113;
+        height: 24px;
+    }
+    .navbar,
+    .banner{
+        padding: 0 10px;
+    }
+    .banner{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .banner-content{
+    max-width: 570px;
+    height: 293.25px;
+    margin-top: 169.75px;
+   }
 }
