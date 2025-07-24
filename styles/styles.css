@@ -1,0 +1,45 @@
+
+/* Body font */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  padding: 20px 100px;
+  margin: 10px auto;
+}
+
+/* Logo size */
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+
+/* Navigation items */
+.nav-item {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 1)
+}
+
+/* Cart text items */
+.item-1 {
+  display: flex;
+  align-items: center;
+}
+
+/* Hero image */
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
