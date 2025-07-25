@@ -345,6 +345,10 @@ footer {
         justify-items: center;
         justify-content: center;
     }
+    .footer-left, .cnt{
+        text-align: center;
+        margin-top: 50px;
+    }
 
     .footer-links{
        .footer-links {
