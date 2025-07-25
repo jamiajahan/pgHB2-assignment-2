@@ -305,7 +305,7 @@ footer {
         width: 113;
         height: 24px;
     } 
-    .navbar,{
+    .navbar{
         margin-bottom: 50px;
     }
     .banner {
@@ -356,6 +356,7 @@ footer {
     }
    .socials{
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
    }
 
 }
