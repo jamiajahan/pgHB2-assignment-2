@@ -300,20 +300,23 @@ footer {
     .logo{
         width: 63;
         height: 38px;
-    }
+    } 
     .item-1{
         width: 113;
         height: 24px;
+    } 
+    .navbar,{
+        margin-bottom: 50px;
     }
-    .Our-Plants,
-    .navbar,
-    .banner{
-        padding: 0 10px;
-    }
-    .banner{
-        flex-direction: column-reverse;
-        justify-items: center;
-    }
+    .banner {
+        margin-top: 250px;
+    flex-direction: column-reverse;
+    text-align: left;
+    padding: 1rem;
+  }
+  .banner-content {
+    margin-top: 1rem;
+  }
     .badge-img{
         display: block;
         justify-content: center;
@@ -340,14 +343,16 @@ footer {
     .carts {
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
+        justify-content: center;
     }
 
     .footer-links{
-        .footer-links {
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
+       .footer-links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     }
    .socials{
         grid-template-columns: repeat(1, 1fr);
