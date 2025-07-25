@@ -146,16 +146,16 @@ body {
     /* .plant-text {
       flex: 1 1 400px;
     } */
-    .badge-img{
+    .bdg, .badge-img{
         max-width: 286px;
         max-height: 286px;
-        margin-top: -700px;
-        margin-left: 150px;
+        margin-top: -260px;
+        margin-left: 100px;
     }
     .plant-img {
         display: block;
         max-width: 100%;
-        max-height: 500px;
+        max-height: 100%;
       /* flex: 1 1 300px;
       position: relative; */
     }
@@ -164,16 +164,16 @@ body {
         max-width: 100%;
         max-height: auto;
     }
-     .plant-img img {
+
+    .Latest-Deals{
+        margin-top: 300px;
+    }
+    
+     /* .plant-img img {
         display: block;
         width: 100%;
         border-radius: 8px;
-    }
-    /* .badge-img{
-        max-width: 286px;
-        max-height: 286px;
-        /* margin-bottom: -200px; */
-    /*
+    } */
 
 /* Hero image
 .img {
