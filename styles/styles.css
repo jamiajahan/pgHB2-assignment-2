@@ -32,6 +32,10 @@ body {
     width: 100%;
 }
 
+.title{
+    font-size: 2.2rem;
+}
+
 /* Navbar styles */
 .navbar {
   background-color: rgba(255, 255, 255, 1);
@@ -128,6 +132,49 @@ body {
    border-radius: 8px;
 }
 
+/* plants */
+.plant-lover {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      padding: 0 2rem;
+      margin-top: 212.12px;
+      max-width: 1140px;
+      max-height: 597px;
+      /* flex-wrap: wrap; */
+    }
+    /* .plant-text {
+      flex: 1 1 400px;
+    } */
+    .badge-img{
+        max-width: 286px;
+        max-height: 286px;
+        margin-top: -700px;
+        margin-left: 150px;
+    }
+    .plant-img {
+        display: block;
+        max-width: 100%;
+        max-height: 500px;
+      /* flex: 1 1 300px;
+      position: relative; */
+    }
+    .plant-text{
+        display: block;
+        max-width: 100%;
+        max-height: auto;
+    }
+     .plant-img img {
+        display: block;
+        width: 100%;
+        border-radius: 8px;
+    }
+    /* .badge-img{
+        max-width: 286px;
+        max-height: 286px;
+        /* margin-bottom: -200px; */
+    /*
+
 /* Hero image
 .img {
   width: 100%;
@@ -158,9 +205,13 @@ body {
     .banner{
         grid-template-columns: 1fr;
         justify-items: center;
+        gr
     }
     .banner-content{
         padding-right: 0;
         text-align: left;
+   }
+   .badge-img{
+    display: none;
    }
 }
